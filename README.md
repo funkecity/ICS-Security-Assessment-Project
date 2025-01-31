@@ -54,6 +54,9 @@ Conclusion
 As we conclude our tour, the view reminds us of the vast and complex nature of this facility. 
 Ensuring the cybersecurity of such an operation is a continuous effort that requires vigilance, strong policies, and proactive measures
 
- 
-
-
+Materials 
+All materials required for conducting risk assessment are.
+Risk Assessment Template 
+Invenyory List
+Vulnerability List
+Network Architecture
