@@ -60,3 +60,5 @@ Risk Assessment Template
 Invenyory List
 Vulnerability List
 Network Architecture
+
+![image alt](https://github.com/funkecity/ICS-Security-Assessment-Project/blob/460845846ac362766bee09ee5f2832d36cd65da7/ABC%20Plant%20Archtecture.docx)
