@@ -1,75 +1,59 @@
-<header>
+ABC Plant Tour
+Explore the critical infrastructure and cybersecurity posture of a ABC power plant.
+Welcome to ABC Plant Tour
+Welcome to our virtual tour of a ABC power plant, where we'll explore its critical infrastructure and assess its cybersecurity posture.
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+This journey will take us from the plant's exterior to the heart of its operations, providing an in-depth look at potential vulnerabilities and security practices.
 
-# Introduction to GitHub
+Step 1: Entering the Plant
 
-_Get started using GitHub in less than an hour._
+Our tour begins at the main entrance of the power plant, where a vigilant security guard ensures that only authorized personnel enter the premises.
+Physical security is the first line of defense in protecting critical infrastructure from unauthorized access.
 
-</header>
+Step 2: Inside the Plant
+As we move inside the plant, we are surrounded by the powerful hum of motors and pumps—the beating heart of the power generation process. 
+These machines are crucial, but their security also depends on protecting the systems that control them.
+Here, we see an engineer diligently monitoring the process through a field Human-Machine Interface (HMI).
+HMIs are vital for real-time control, but they also present potential entry points for cyber threats if not adequately secured.
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+   Step 3: Control Room Security
 
-## Step 1: Create a branch
+Access to the control room is restricted and requires a smart card, highlighting the importance of access control in protecting sensitive operations. Let's step inside.
+Within the control room, operators manage the Supervisory Control and Data Acquisition (SCADA) and Distributed Control Systems (DCS), which are the brains behind the plant's operations.
+Securing these systems is paramount to maintaining operational integrity.
+Field technicians are also busy ensuring that other critical systems function smoothly. 
+The collaboration between the control room and field technicians is crucial for seamless operations, but it also necessitates strong cybersecurity practices across all interfaces.
 
-_Welcome to "Introduction to GitHub"! :wave:_
+Step 4: Maintenance and Engineering Room
 
-**What is GitHub?**: GitHub is a collaboration platform that uses _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ for versioning. GitHub is a popular place to share and contribute to [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) software.
-<br>:tv: [Video: What is GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
+Managers are responsible for overseeing maintenance activities, ensuring that field permits are approved, and maintaining compliance. 
+Proper documentation and authorization are essential to avoid introducing risks during maintenance.
 
-**What is a repository?**: A _[repository](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ is a project containing files and folders. A repository tracks versions of files and folders. For more information, see "[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" from GitHub Docs.
+Now, we enter the engineering room, where instrumentation engineers work on engineering workstations to modify logic and ensure the safe operation of machines.
+Their work is critical, but we notice something concerning—several engineering stations have been left unattended with systems still open. 
+This oversight can expose sensitive systems to unauthorized access, emphasizing the need for strict cybersecurity policies.
+Additionally, the cables from these desktops are not properly arranged, and USB ports are easily accessible. 
+These physical vulnerabilities could be exploited to introduce malware or extract sensitive data.
 
-**What is a branch?**: A _[branch](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_ is a parallel version of your repository. By default, your repository has one branch named `main` and it is considered to be the definitive branch. Creating additional branches allows you to copy the `main` branch of your repository and safely make any changes without disrupting the main project. Many people use branches to work on specific features without affecting any other parts of the project.
+Step 5: Server Room Security
 
-Branches allow you to separate your work from the `main` branch. In other words, everyone's work is safe while you contribute. For more information, see "[About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)".
+Next, we use our smart card to access the server room, where the plant's critical networking and server infrastructure is housed. 
+Robust access controls are crucial in this highly sensitive area.
+Inside, we see a vast array of networking equipment and servers operating within cabinets. However, some cabinets have been left open and unlocked, posing a significant security risk. 
+A more concerning issue is the presence of sticky notes with usernames, passwords, and other sensitive details pasted on servers and switches. 
+This practice is a glaring security lapse that could easily be exploited.
+On a positive note, we observe that the Programmable Logic Controller (PLC) rack is well maintained and in excellent condition, reflecting a commitment to securing critical control components.
 
-**What is a profile README?**: A _[profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_ is essentially an "About me" section on your GitHub profile where you can share information about yourself with the community on GitHub.com. GitHub shows your profile README at the top of your profile page. For more information, see "[Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)".
+Step 6: Security Monitoring and Final Measures
 
-![profile-readme-example](/images/profile-readme-example.png)
+Physical security measures are also in place, as evidenced by the operational CCTV cameras installed throughout the plant. 
+These cameras play a vital role in monitoring the plant's security.
+Lastly, we ensure that the emergency and fire suppression systems are active, providing a final layer of safety for both personnel and critical infrastructure in case of an incident.  
 
-### :keyboard: Activity: Your first branch
+Conclusion
+As we conclude our tour, the view reminds us of the vast and complex nature of this facility. 
+Ensuring the cybersecurity of such an operation is a continuous effort that requires vigilance, strong policies, and proactive measures
 
-1. Open a new browser tab and navigate to your newly made repository. Then, work on the steps in your second tab while you read the instructions in this tab.
-2. Navigate to the **< > Code** tab in the header menu of your repository.
+ 
 
-   ![code-tab](/images/code-tab.png)
 
-3. Click on the **main** branch drop-down.
-
-   ![main-branch-dropdown](/images/main-branch-dropdown.png)
-
-4. In the field, name your branch `my-first-branch`. In this case, the name must be `my-first-branch` to trigger the course workflow.
-5. Click **Create branch: my-first-branch** to create your branch.
-
-   ![create-branch-button](/images/create-branch-button.png)
-
-   The branch will automatically switch to the one you have just created.
-   The **main** branch drop-down bar will reflect your new branch and display the new branch name.
-
-6. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2024 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
