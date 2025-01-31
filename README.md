@@ -62,3 +62,101 @@ Vulnerability List
 Network Architecture
 
 ![image alt](https://github.com/funkecity/ICS-Security-Assessment-Project/blob/460845846ac362766bee09ee5f2832d36cd65da7/ABC%20Plant%20Archtecture.docx)
+ABC Plant Network Architecture Overview
+Introduction
+
+The attached ABC Plant Network Diagram represents the layered architecture of the industrial control system (ICS) environment, based on the Purdue Model for ICS security. 
+This structure segregates operational technology (OT) and information technology (IT) networks to ensure security, efficiency, and resilience.
+Network Segmentation & Levels
+
+    Level 4 (Enterprise Network)
+        Workstations, business applications, and domain controllers for corporate IT functions.
+        Direct internet connectivity for external access and enterprise-wide applications.
+
+    Level 3.5 (DMZ - Industrial Demilitarized Zone)
+        Enterprise AD Replica, Patch Management, and Remote Access services.
+        Acts as a buffer between enterprise IT and OT environments.
+
+    Level 3 (Operational Management Network)
+        Hosts critical services like Historian, Database Servers, Domain Controllers, and Application Servers.
+        Engineering Workstations (EWS-1, EWS-2) used for system administration.
+
+    Level 2 (Supervisory Control Network)
+        Supervisory Control and Data Acquisition (SCADA) systems.
+        Human-Machine Interfaces (HMI-1, HMI-2) for process visualization and control.
+        Historian-1 for logging real-time industrial process data.
+
+    Level 1 (Control Network)
+        Programmable Logic Controllers (PLCs) manage automated control functions.
+        Communication through industrial switches (SW-1, SW-2).
+
+    Level 0 (Physical Process Layer)
+        Actuators, sensors, and field devices executing plant operations.
+        Remote Terminal Units (RTU-1, RTU-2) interfacing with PLCs.
+        Network Time Protocol (NTP) synchronization for accurate process control.
+        Uninterruptible Power Supply (UPS) ensuring system availability.
+
+Security Considerations
+    Firewalls (FW-1, FW-2) separate IT and OT environments, preventing unauthorized access.
+    Restricted Access to critical components via industrial switches.
+    Remote Access Control through a secured gateway at Level 3.5.
+    Cybersecurity Monitoring with layered segmentation to reduce attack surfaces.
+
+Observation
+The ABC Plant Network Architecture is designed with security best practices in mind, ensuring robust isolation between enterprise IT and OT infrastructure. 
+Implementing proper access controls, network monitoring, and segmentation enhances both cybersecurity and operational efficiency.
+
+
+![image alt](https://github.com/funkecity/ICS-Security-Assessment-Project/blob/fe2fcd97292d99be960387cf1b3729707ee5bd8e/ABC%20Plant%20Asset%20Inventory.xlsx)
+ABC Plant Asset Inventory Overview
+
+This document provides a high-level summary of the critical assets at ABC Plant, detailing their types, locations, and cybersecurity considerations.
+1. Asset Categories
+
+The plant's infrastructure consists of various asset types, including:
+
+    Programmable Logic Controllers (PLCs) – Essential for process automation and control.
+    Human-Machine Interfaces (HMIs) – Facilitate real-time monitoring and interaction with plant processes.
+    SCADA Systems – Centralized monitoring and control for plant operations.
+    Networking Equipment & Servers – Support data communication and processing.
+
+2. Critical Assets and Locations
+
+The plant consists of multiple critical assets distributed across different operational areas:
+
+    Hydrogen Plant
+        PLCs (Siemens S7-1200) – Control hydrogen production.
+        HMIs (Rockwell PanelView) – Operator interface for hydrogen systems.
+        SCADA System (Schneider SCX-5000) – Supervisory control for hydrogen processes.
+
+    Water Treatment
+        PLCs (Mitsubishi MELSEC iQ-R) – Control water treatment processes.
+        HMIs (Siemens SIMATIC HMI) – Operator interface for water treatment.
+
+    Control Room
+        Hosts key operational assets, including PLCs, SCADA, and HMIs.
+        Houses networking infrastructure such as switches, servers, and firewalls.
+
+3. Cybersecurity Considerations
+
+    Access Controls: Restricted access to control systems (smart cards required for entry).
+    Network Security: PLCs, SCADA, and HMIs have defined IP addresses and are segmented for security.
+    Physical Security: Equipment is housed in secured locations, though some vulnerabilities (unlocked cabinets, sticky notes with passwords) were identified.
+    Firmware & Software Updates: Regular maintenance schedules ensure up-to-date firmware.
+    Incident Readiness: Fire suppression systems and CCTV monitoring in place.
+
+4. Maintenance & Compliance
+
+    Maintenance Frequency: Assets have predefined schedules, such as quarterly or monthly checks.
+    Last Maintenance Dates: Regular inspections ensure system reliability and security.
+
+5. Key Security Risks
+
+    Unattended Engineering Stations: Risk of unauthorized access.
+    USB Accessibility: Potential for malware introduction.
+    Open Server Cabinets: Exposes critical network infrastructure to physical tampering.
+    Credential Handling Issues: Sticky notes with login credentials observed.
+
+Obervation
+The ABC Plant relies on a range of critical infrastructure assets for operations. 
+Ensuring cybersecurity across these systems requires strict access controls, regular maintenance, and strong security policies to mitigate risks.
