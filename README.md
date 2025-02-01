@@ -1,16 +1,20 @@
+# ICS Security Assessment Project
+
 ABC Plant Tour
 Explore the critical infrastructure and cybersecurity posture of a ABC power plant.
 Welcome to ABC Plant Tour
 Welcome to our virtual tour of a ABC power plant, where we'll explore its critical infrastructure and assess its cybersecurity posture.
 
+Click this sample [here](http://www.google.com)
+
 This journey will take us from the plant's exterior to the heart of its operations, providing an in-depth look at potential vulnerabilities and security practices.
 
-Step 1: Entering the Plant
+## Step 1: Entering the Plant
 
 Our tour begins at the main entrance of the power plant, where a vigilant security guard ensures that only authorized personnel enter the premises.
 Physical security is the first line of defense in protecting critical infrastructure from unauthorized access.
 
-Step 2: Inside the Plant
+## Step 2: Inside the Plant
 As we move inside the plant, we are surrounded by the powerful hum of motors and pumps—the beating heart of the power generation process. 
 These machines are crucial, but their security also depends on protecting the systems that control them.
 Here, we see an engineer diligently monitoring the process through a field Human-Machine Interface (HMI).
