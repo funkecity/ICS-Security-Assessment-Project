@@ -164,3 +164,12 @@ The plant consists of multiple critical assets distributed across different oper
 Obervation
 The ABC Plant relies on a range of critical infrastructure assets for operations. 
 Ensuring cybersecurity across these systems requires strict access controls, regular maintenance, and strong security policies to mitigate risks.
+
+# Add ABC Plant Vulnerabilities Report Overview
+
+- Identified vulnerabilities in PLCs, HMIs, and OT devices
+- Issues include outdated firmware, weak passwords, lack of encryption, unpatched software, and default credentials
+- CVSS scores range from High to Critical
+- Potential impacts: system malfunction, unauthorized access, data manipulation
+- Mitigation: firmware updates, strong password policies, encryption (TLS/SSL), patch management, credential changes
+
