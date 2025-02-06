@@ -165,7 +165,7 @@ Obervation
 The ABC Plant relies on a range of critical infrastructure assets for operations. 
 Ensuring cybersecurity across these systems requires strict access controls, regular maintenance, and strong security policies to mitigate risks.
 
-# Add ABC Plant Vulnerabilities Report Overview
+#  ABC Plant Vulnerabilities Report Overview
 
 - Identified vulnerabilities in PLCs, HMIs, and OT devices
 - Issues include outdated firmware, weak passwords, lack of encryption, unpatched software, and default credentials
@@ -175,7 +175,7 @@ Ensuring cybersecurity across these systems requires strict access controls, reg
 
   # ABC Plant Risk Assessment Summary
 
-- **Assessed Zones:** Level 0 (Sensors), Level 1 (PLCs)
+- **Assessed Zones:** Level 0 (Sensors), Level 1 to 3.5 (PLCs,HMI,NTP,FIREWALL,RTU,REMOTE SERVER EWS)
 - **Threat Scenarios:** Internal (disgruntled employees), external (unauthorized access, Modbus command injection)
 - **Key Vulnerabilities:** Lack of physical security controls, vulnerable communication protocols (e.g., Modbus)
 - **Potential Consequences:** False sensor readings, process disruptions, safety hazards
