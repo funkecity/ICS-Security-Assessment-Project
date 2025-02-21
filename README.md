@@ -183,4 +183,26 @@ Ensuring cybersecurity across these systems requires strict access controls, reg
 - **Mitigations:** Physical security enhancements, strong authentication for Modbus, encrypted communication protocols
 - **Recommendations:** Regular security audits, implementation of secure protocols, monitoring access controls
 
+# ABC Plant ICS Risk Assessment Report – IEC 62443 Compliance  
+
+This report presents a **comprehensive risk assessment** of the **DCS, PLC, and control network** at ABC Plant, following the **IEC 62443 standard**. The assessment aims to **identify vulnerabilities, evaluate threats, and propose mitigation strategies** to enhance cybersecurity across the plant’s **Industrial Control System (ICS)**.
+
+## 🔍 Key Highlights  
+✅ **Asset Inventory & Classification** – Categorization of assets from Level 0 (sensors, actuators) to Level 4 (enterprise systems).  
+✅ **Vulnerability Identification** – Analysis of outdated OS, weak access controls, and physical security gaps.  
+✅ **Threat Analysis** – Evaluation of cyber threats (unauthorized access, malware, brute force attacks) and insider risks.  
+✅ **Risk Evaluation** – Prioritization of risks using a matrix, ranking **engineering workstations (Level 3)** and **network switches (Level 1)** as high-risk areas.  
+✅ **Mitigation Strategies** – Includes **patching**, **access control enhancements**, **firmware updates**, and **network segmentation**.  
+✅ **Residual Risk & Security Level Targets (SL-Ts)** – Post-mitigation assessment ensures risks are within acceptable thresholds.  
+
+## 📌 Conclusion & Next Steps  
+This assessment provides **targeted risk mitigation measures** to **improve ICS security resilience**. However, **continuous monitoring, regular assessments, and adherence to IEC 62443 guidelines** are essential for long-term protection.  
+
+📌 **Next Actions:** Implementation of security controls, policy enforcement, and periodic reevaluation of risks.  
+
+---
+
+📂 **For full details, refer to the report.**  
+
+
 
